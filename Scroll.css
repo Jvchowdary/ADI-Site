@@ -1,0 +1,19 @@
+﻿/* Area di scorrimento */
+#top {
+	width: 200px;
+	height: 84px;
+	overflow: hidden;
+	border: 0px solid black;
+	padding: 0px;
+	clear:both;
+	}
+
+/* Immagini */
+#top img {
+	width: 200px;
+	margin: 0px;
+	border: 0px;
+	clear:both;
+	}
+	
+

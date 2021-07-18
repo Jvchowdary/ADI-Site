@@ -1,0 +1,126 @@
+﻿.News
+{
+font-style: italic;
+font-weight: bold;
+font-size: 12pt;
+font-family:Viner Hand ITC;
+color:red;
+margin:1px;
+}
+
+h3 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	color:Red;
+	padding-top: 15px;
+	padding-bottom:5px;
+}
+
+a
+{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+
+.tdgray1
+{
+background-color:red;
+}
+
+
+ul#nav,ul#nav li
+{
+list-style-type:none;margin:1px;padding:0px;
+}
+
+ul#nav
+{
+	float:right;font-size:1opx;
+}
+
+ul#nav li
+{
+float:left;margin-left: 3px;text-align: center
+}
+
+ul#nav a
+{
+float:left;width: 106px;
+padding: 3px 2px;background: #FE2E2E;text-decoration:none;color:white; border-top : 1px solid white; border-left : 1px solid white; border-right : 1px solid white;border-bottom:1px solid white;
+}
+
+
+ul#nav a:hover
+{
+background: #fff;color: #000
+}
+
+.left
+{
+	float:left; 
+	vertical-align:top;
+	margin:0px 8px 4px 6px;
+}
+
+	#toplinks
+	{
+		text-align:center; padding:5px 2px 2px 3px;
+	}
+		
+		
+		ul#topnav {
+		margin: 0; padding:0px 0px;
+		float: left;
+		font:100% Candara;
+		width: 898px;
+		list-style: none;
+		position: relative; /*--Set relative positioning on the unordered list itself - not on the list item--*/
+		font-size: 1.0em;
+		/*background: url(topnav_stretch.gif) repeat-x;*/
+	}
+	ul#topnav li {
+		float: left;
+		margin: 0; padding: 0px 0px;
+		border-right: 1px solid #555; /*--Divider for each parent level links--*/
+	}
+	ul#topnav li a {
+		padding: 8px 3px;
+		display: block;
+		color: #f0f0f0;
+		font-family:Candara;
+		font-size:10;
+		font-style:oblique;
+		font-weight:bold;
+		text-decoration: none;
+	}
+	ul#topnav li:hover { background: gray url(topnav_active.gif) repeat-x; }
+	/*--Notice #1376c9
+	 the hover color is on the list item itself, not on the link. This is so it can stay highlighted even when hovering over the subnav--*/
+	 
+	 ul#topnav li span {
+		float: left;
+		padding:0px 0px;
+		position: absolute;
+		left: relative;
+		top:33px;
+		display: none; /*--Hide by default--*/
+	/*	width: 899px;*/	
+		background:gray ;/*#1376c9*/
+		color: #fff;
+		height:15px;
+		/*--Bottom right rounded corner--*/
+		-moz-border-rADI us-bottomright: 5px;
+		-khtml-border-rADI us-bottomright: 5px;
+		-webkit-border-bottom-right-rADI us: 5px;
+		/*--Bottom left rounded corner--*/
+		-moz-border-rADI us-bottomleft: 5px;
+		-khtml-border-rADI us-bottomleft: 5px;
+		-webkit-border-bottom-left-rADI us: 5px;
+	}
+	ul#topnav li:hover span { display: block; } /*--Show subnav on hover--*/
+	ul#topnav li span a { display: inline; } /*--Since we declared a link style on the parent list link, we will correct it back to its original state--*/
+	ul#topnav li span a:hover {text-decoration: underline;}
+
+

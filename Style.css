@@ -1,0 +1,127 @@
+﻿body {
+/*background-image: url(images/bg.gif);*/
+background-color:Gray;
+	margin: 0px;
+}
+
+a img {
+border : 0;
+}
+div.wrap {
+width : 900px;
+margin : 0 auto;
+text-align : left;
+}
+div#top div#nav {
+float : left;
+clear : both;
+width : 900px;
+height : 35px;
+margin : 22px 0 0;
+}
+div#top div#nav ul {
+float : left;
+width : 700px;
+height : 35px;
+list-style-type : none;
+}
+div#nav ul li {
+float : left;
+height : 35px;
+}
+div#nav ul li a {
+border : 0;
+height : 35px;
+display : block;
+line-height : 35px;
+text-indent : -9999px;
+}
+div#header {
+margin : -1px 0 0;
+}
+div#video-header {
+height : 180px;
+margin : -1px 0 0;
+}
+div#header div.wrap {
+height : 180px;
+
+}
+div#header div#slide-holder {
+z-index : 40;
+width : 900px;
+height : 180px;
+position : absolute;
+}
+div#header div#slide-holder div#slide-runner {
+top : 0px;
+left : 0px;
+width : 900px;
+height : 180px;
+overflow : hidden;
+position : absolute;
+}
+div#header div#slide-holder img {
+margin : 0;
+display : none;
+position : absolute;
+}
+div#header div#slide-holder div#slide-controls {
+left : 0;
+bottom : 2px;
+width : 900px;
+height : 30px;
+display : none;
+position : absolute;
+background : url(images/slide-bg.png) 0 0;
+}
+div#header div#slide-holder div#slide-controls p.text {
+float : left;
+color : White;
+display :table-caption;
+font-size : 18px;
+line-height : 16px;
+margin : 8px 0 0 20px;
+text-transform : uppercase;
+font-family:"Bauhaus 93";
+}
+
+div#header div#slide-holder div#slide-controls p.text10 {
+float : left;
+color : #ffffff;
+display : inline;
+font-size : 14px;
+line-height : 16px;
+margin : 8px 0 0 20px;
+text-transform : uppercase;
+}
+
+div#header div#slide-holder div#slide-controls p#slide-nav {
+float : right;
+height : 24px;
+display : inline;
+margin : 3px 15px 0 0;
+}
+div#header div#slide-holder div#slide-controls p#slide-nav a {
+float : left;
+width : 24px;
+height : 24px;
+display : inline;
+font-size : 11px;
+margin : 0 5px 0 0;
+line-height : 24px;
+font-weight : bold;
+text-align : center;
+text-decoration : none;
+background-position : 0 0;
+background-repeat : no-repeat;
+}
+div#header div#slide-holder div#slide-controls p#slide-nav a.on {
+background-position : 0 -24px;
+}
+div#header div#slide-holder div#slide-controls p#slide-nav a {
+background-image : url(images/silde-nav.png);
+}
+div#nav ul li a {
+background : url(images/nav.png) no-repeat;
+}

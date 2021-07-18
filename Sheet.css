@@ -1,0 +1,374 @@
+﻿body {
+	/*background-image: url(images/bg.gif);'Segoe UI','Lucida Grande',Verdana,Arial,Helvetica,sans-serif*/
+	background-color:Gray;
+	margin: 0px;
+}
+.textnormal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	line-height: 18px;
+}
+.sides2 {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+}
+
+.leftline {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+.border {
+	border: 1px solid #999999;
+}
+
+.bgfoot {
+	background-attachment: fixed;
+	background-image: url(images/bgfooter.jpg);
+	background-repeat: repeat-y;
+	background-position: center center;
+}
+
+.bglogo {
+	background-attachment: scroll;
+	background-image: url(images/clients.gif);
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+}
+
+
+#bglogol {
+	background-image:url(images/ADI BG TAG 2.gif);
+	display:block;
+	height:76px;
+	text-indent:-9999px;
+	width:220px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+
+.tdleftline {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+.sides4 {
+	border: 1px solid #CCCCCC;
+}
+
+
+.tdorange {
+	
+	background-image: url(images/tdbg.jpg)
+}
+.whitetext14 {
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.bghead {
+	background-image: url(images/bghead.gif);
+	background-attachment: scroll;
+	background-repeat: repeat;
+	background-position: right center;
+}
+
+.tdgray {
+	background-color: #E8E8E8;
+}
+
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+}
+a:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: underline;
+}
+a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+}
+.tdgray1 {
+
+	background-color: #9EA9AD;
+}
+.tdblue {
+
+	background-color: gray;  /* #1376c9*/
+ }
+.whitetext13 {
+
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.orangetext {
+
+
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	font-weight: bold;
+	color: #FF9900;
+}
+.graytext {
+
+
+
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	font-weight: bold;
+	color: #999999;
+}
+.bluetext {
+
+
+
+
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	font-weight: bold;
+	color: #3e88d4;
+}
+.greentext {
+
+
+
+
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	font-weight: bold;
+	color: #41B04E;
+}
+.textnormal1 {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+}
+a.a:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #3E88D4;
+	text-decoration: underline;
+}
+a.a:visited {
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #3E88D4;
+	text-decoration: underline;
+}
+a.a:active {
+
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #3E88D4;
+	text-decoration: underline;
+}
+a.a:hover {
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FF9C00;
+	text-decoration: underline;
+}
+
+.normaltxt_align
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	line-height:16px;
+	font-weight: normal;
+	text-align:justify;
+	margin-left:20px;
+	margin-top:10px;
+	text-decoration: none;
+
+}
+
+.holder {width:210px; margin:5px; padding:1em; border:1px solid #ddd; float:left;}
+.holder h2 {text-align:left;}
+a.hid {color:#000; text-decoration:none; outline-style:none;}
+a.hid em {display:none;}
+a.hid:hover {text-decoration:none;}
+a.hid:active, a.hid:focus {background:#fff;}
+a.hid:active span, a.hid:focus span {display:none;}
+a.hid:active em, a.hid:focus em {display:block; color:#555; width:100%; font-style:normal; cursor:default;}
+.clear {clear:both;}
+
+
+
+.toplinks1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	line-height: 18px;
+	text-decoration:none;
+}
+.toplinks1 a
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration:none;
+}
+.toplinks1 a:hover
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FF9900;
+	text-decoration: none;
+}
+
+
+
+
+body{
+	font-family:arial
+}
+
+.clear {
+	clear:both
+}
+
+#gallery {
+	position:relative;
+	height:180px
+}
+	#gallery a {
+		float:right;
+		position:absolute;
+	}
+	
+	#gallery a img {
+		border:none;
+	}
+	
+	#gallery a.show {
+		z-index:500;
+		float: right;
+	}
+
+	#gallery .caption {
+		z-index:600; 
+		background-color:#999999; 
+		color:#ffffff; 
+		height:30px; 
+		width:100%; 
+		position:absolute;
+		bottom:0;
+		float:right;
+	}
+
+	#gallery .caption .content {
+		margin:5px
+	}
+	
+	#gallery .caption .content h3 {
+		margin:0;
+		padding:0;
+		color:#040404;
+		font-family:"Bauhaus 93";
+		float:right;
+	}
+	
+	#gallery .caption .content h2 {
+		margin:0;
+		padding:0;
+		color:#fd3203;
+		font-family:"Bauhaus 93";
+		float:right;
+		font-size: 22px
+	}
+	
+	
+	
+	/* new one for banner with 12345 buttons*/
+	
+	.whitetext21 {
+
+	float : left;
+color : #ffffff;
+display : inline;
+font-size : 14px;
+line-height : 16px;
+margin : 8px 0 0 20px;
+text-transform : uppercase;
+font-family:"Bauhaus 93";
+	
+}
+
+#slideshow {
+  width: 210px;
+  height: 84px;
+}
+
+
+
